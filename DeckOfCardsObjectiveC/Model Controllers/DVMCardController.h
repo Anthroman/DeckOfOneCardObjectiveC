@@ -55,7 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param card DVM card object containing the image URL string
  @param completion Completes with an optional UIImage
  */
-+ (void)fetchCardImage:(DVMCard *)card completion:(void(^) (UIImage *_Nullable image))completion;
++ (void)fetchCardImage:(DVMCard *)card completion:(void(^) (UIImage *image))completion;
 
 @end
 
